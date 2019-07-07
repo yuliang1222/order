@@ -1,5 +1,5 @@
 env:
-  dev6
+  dev7
 spring:
   application:
     name: order
