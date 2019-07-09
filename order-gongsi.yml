@@ -24,4 +24,4 @@ eureka:
     instance:
       hostname: clientName
 server:
-  port: 8072
+  port: 8089
