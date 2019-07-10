@@ -1,0 +1,29 @@
+env:
+  dev10
+spring:
+  application:
+    name: order
+  redis:
+    port: 6379
+    host: 127.0.0.1
+  rabbitmq:
+    password: admin
+    host: 192.168.42.14
+    username: admin
+    port: 5672
+    virtual-host: my_vhost
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      deaultZone: http://localhost:8761/eureka/
+    instance:
+      hostname: clientName
+server:
+  port: 8090
