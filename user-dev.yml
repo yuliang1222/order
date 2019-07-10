@@ -2,16 +2,16 @@ env:
   dev10
 spring:
   application:
-    name: order
+    name: user
   redis:
     port: 6379
     host: 127.0.0.1
-  rabbitmq:
-    password: admin
-    host: 192.168.42.14
-    username: admin
-    port: 5672
-    virtual-host: my_vhost
+#   rabbitmq:
+#     password: admin
+#     host: 192.168.42.14
+#     username: admin
+#     port: 5672
+#     virtual-host: my_vhost
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
